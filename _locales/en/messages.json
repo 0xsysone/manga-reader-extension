@@ -1,0 +1,377 @@
+{
+  "extName": {
+    "message": "Manga Reader – Book Mode"
+  },
+  "extShortName": {
+    "message": "Manga Reader"
+  },
+  "extDescription": {
+    "message": "Read manga like a real book: full-page fit, double-page spreads, right-to-left reading, page-turn animation and dark mode."
+  },
+  "modeSingle": {
+    "message": "Single page"
+  },
+  "modeDouble": {
+    "message": "Double page"
+  },
+  "modeAuto": {
+    "message": "Auto"
+  },
+  "modeAutoTip": {
+    "message": "Auto: double page when the screen is wide enough"
+  },
+  "autoDoubleFlash": {
+    "message": "Auto · double page"
+  },
+  "autoSingleFlash": {
+    "message": "Auto · single page"
+  },
+  "animFlip": {
+    "message": "Page turn"
+  },
+  "animSlide": {
+    "message": "Slide"
+  },
+  "animNone": {
+    "message": "Instant"
+  },
+  "animNoneShort": {
+    "message": "None"
+  },
+  "animation": {
+    "message": "Animation"
+  },
+  "animationTip": {
+    "message": "Animation: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Animation name"
+      }
+    }
+  },
+  "chapter": {
+    "message": "Chapter"
+  },
+  "chapterN": {
+    "message": "Chapter $NUM$",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "Chapter or page number"
+      }
+    }
+  },
+  "chShort": {
+    "message": "Ch. $NUM$",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "Chapter or page number"
+      }
+    }
+  },
+  "chapters": {
+    "message": "Chapters"
+  },
+  "allChapters": {
+    "message": "All chapters"
+  },
+  "reading": {
+    "message": "Reading"
+  },
+  "next": {
+    "message": "Next"
+  },
+  "previous": {
+    "message": "Previous"
+  },
+  "nextChapter": {
+    "message": "Next chapter"
+  },
+  "prevChapter": {
+    "message": "Previous chapter"
+  },
+  "noNextChapter": {
+    "message": "No next chapter"
+  },
+  "noPrevChapter": {
+    "message": "No previous chapter"
+  },
+  "endOfChapter": {
+    "message": "End of chapter"
+  },
+  "endOfChapterN": {
+    "message": "End of chapter $NUM$",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "Chapter or page number"
+      }
+    }
+  },
+  "startOfChapter": {
+    "message": "Start of chapter"
+  },
+  "pressAgainNext": {
+    "message": "Press $KEY$ again to continue",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "Keyboard key"
+      }
+    }
+  },
+  "pressAgainPrev": {
+    "message": "Press $KEY$ again to go back to the previous chapter",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "Keyboard key"
+      }
+    }
+  },
+  "lastChapter": {
+    "message": "This is the latest chapter available."
+  },
+  "firstChapter": {
+    "message": "This is the first chapter."
+  },
+  "offsetTip": {
+    "message": "Cover alone / shift pairs"
+  },
+  "offsetOnTip": {
+    "message": "Cover alone · click to shift"
+  },
+  "offsetOffTip": {
+    "message": "Pairs shifted · click to restore"
+  },
+  "onlyInDouble": {
+    "message": "Available in double-page mode"
+  },
+  "coverAlone": {
+    "message": "Cover alone"
+  },
+  "pairedFromStart": {
+    "message": "Pages paired from the start"
+  },
+  "dirRtlShort": {
+    "message": "RTL"
+  },
+  "dirLtrShort": {
+    "message": "LTR"
+  },
+  "dirRtlTip": {
+    "message": "Japanese order (right → left)"
+  },
+  "dirLtrTip": {
+    "message": "Western order (left → right)"
+  },
+  "dirRtlFlash": {
+    "message": "Japanese order · right → left"
+  },
+  "dirLtrFlash": {
+    "message": "Western order · left → right"
+  },
+  "dirJapanese": {
+    "message": "← Japanese"
+  },
+  "dirWestern": {
+    "message": "Western →"
+  },
+  "readingDirection": {
+    "message": "Reading direction"
+  },
+  "darkMode": {
+    "message": "Dark mode"
+  },
+  "lightMode": {
+    "message": "Light mode"
+  },
+  "themeToggle": {
+    "message": "Dark / light mode"
+  },
+  "fullscreen": {
+    "message": "Fullscreen"
+  },
+  "exitFullscreen": {
+    "message": "Exit fullscreen"
+  },
+  "fullscreenUnavailable": {
+    "message": "Fullscreen unavailable"
+  },
+  "shortcuts": {
+    "message": "Shortcuts"
+  },
+  "keyboardShortcuts": {
+    "message": "Keyboard shortcuts"
+  },
+  "backToSite": {
+    "message": "Back to the site"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "keyEsc": {
+    "message": "Esc"
+  },
+  "keySpace": {
+    "message": "Space"
+  },
+  "pageN": {
+    "message": "Page $NUM$",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "Chapter or page number"
+      }
+    }
+  },
+  "pagesCount": {
+    "message": "$COUNT$ pages",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "Number of pages"
+      }
+    }
+  },
+  "helpRtl": {
+    "message": "Japanese order: you move forward to the left, like in a tankōbon."
+  },
+  "helpLtr": {
+    "message": "Western order: you move forward to the right."
+  },
+  "nextPage": {
+    "message": "Next page"
+  },
+  "prevPage": {
+    "message": "Previous page"
+  },
+  "startEnd": {
+    "message": "Start / end"
+  },
+  "chapterNextPrev": {
+    "message": "Next / previous chapter"
+  },
+  "modeCycle": {
+    "message": "Single / double / auto"
+  },
+  "shiftPairs": {
+    "message": "Shift pairs"
+  },
+  "zoomFollows": {
+    "message": "Zoom (follows the mouse)"
+  },
+  "helpFootRtl": {
+    "message": "Click on the left: next page · double-click in the centre: zoom · wheel and swipe work too"
+  },
+  "helpFootLtr": {
+    "message": "Click on the right: next page · double-click in the centre: zoom · wheel and swipe work too"
+  },
+  "consentTitle": {
+    "message": "The site is waiting for your cookie choice"
+  },
+  "consentSub": {
+    "message": "Until the banner is answered, the site won’t load the next pages. Answer it, then reopen the reader."
+  },
+  "consentAction": {
+    "message": "Answer"
+  },
+  "loadingPages": {
+    "message": "Loading pages…"
+  },
+  "loadingPagesSub": {
+    "message": "Move the mouse: the site waits for activity before sending the images."
+  },
+  "chapterUnavailable": {
+    "message": "Chapter unavailable"
+  },
+  "chapterUnavailableSub": {
+    "message": "The site didn’t load the requested chapter."
+  },
+  "launcherTitle": {
+    "message": "Open Manga Reader"
+  },
+  "launcherLabel": {
+    "message": "Read in book mode"
+  },
+  "popupTagline": {
+    "message": "Manga reader in book mode"
+  },
+  "read": {
+    "message": "Read"
+  },
+  "opened": {
+    "message": "Open"
+  },
+  "hintOpenChapter": {
+    "message": "Open a chapter on a manga site to read it in book mode."
+  },
+  "noPagesHere": {
+    "message": "No manga pages found here. Open a chapter."
+  },
+  "hintEnable": {
+    "message": "Enable the reader to read this site’s chapters in book mode."
+  },
+  "hintDisabled": {
+    "message": "Reader turned off here. Reload the page to get the original site back."
+  },
+  "enable": {
+    "message": "Enable"
+  },
+  "disable": {
+    "message": "Disable"
+  },
+  "enabling": {
+    "message": "Enabling…"
+  },
+  "failed": {
+    "message": "Failed: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Error message"
+      }
+    }
+  },
+  "siteOn": {
+    "message": "Active on this site"
+  },
+  "siteOff": {
+    "message": "Not active here yet"
+  },
+  "legendDisplay": {
+    "message": "Display"
+  },
+  "legendTheme": {
+    "message": "Theme"
+  },
+  "themeDark": {
+    "message": "Dark"
+  },
+  "themeLight": {
+    "message": "Light"
+  },
+  "optCoverAloneSub": {
+    "message": "In double-page mode, page 1 is shown alone"
+  },
+  "optAutoOpen": {
+    "message": "Open automatically"
+  },
+  "optAutoOpenSub": {
+    "message": "Starts the reader as soon as a chapter is open"
+  },
+  "footPages": {
+    "message": "pages"
+  },
+  "footMode": {
+    "message": "mode"
+  },
+  "footTheme": {
+    "message": "theme"
+  },
+  "footHelp": {
+    "message": "help"
+  }
+}

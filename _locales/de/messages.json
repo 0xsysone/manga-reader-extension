@@ -1,0 +1,377 @@
+{
+  "extName": {
+    "message": "Manga Reader – Buchmodus"
+  },
+  "extShortName": {
+    "message": "Manga Reader"
+  },
+  "extDescription": {
+    "message": "Lies Manga wie ein echtes Buch: ganze Seite, Doppelseiten, Leserichtung von rechts nach links, Umblätter-Animation und Dunkelmodus."
+  },
+  "modeSingle": {
+    "message": "Einzelseite"
+  },
+  "modeDouble": {
+    "message": "Doppelseite"
+  },
+  "modeAuto": {
+    "message": "Auto"
+  },
+  "modeAutoTip": {
+    "message": "Auto: Doppelseite, wenn der Bildschirm breit genug ist"
+  },
+  "autoDoubleFlash": {
+    "message": "Auto · Doppelseite"
+  },
+  "autoSingleFlash": {
+    "message": "Auto · Einzelseite"
+  },
+  "animFlip": {
+    "message": "Umblättern"
+  },
+  "animSlide": {
+    "message": "Schieben"
+  },
+  "animNone": {
+    "message": "Sofort"
+  },
+  "animNoneShort": {
+    "message": "Keine"
+  },
+  "animation": {
+    "message": "Animation"
+  },
+  "animationTip": {
+    "message": "Animation: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Animation name"
+      }
+    }
+  },
+  "chapter": {
+    "message": "Kapitel"
+  },
+  "chapterN": {
+    "message": "Kapitel $NUM$",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "Chapter or page number"
+      }
+    }
+  },
+  "chShort": {
+    "message": "Kap. $NUM$",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "Chapter or page number"
+      }
+    }
+  },
+  "chapters": {
+    "message": "Kapitel"
+  },
+  "allChapters": {
+    "message": "Alle Kapitel"
+  },
+  "reading": {
+    "message": "Lesen"
+  },
+  "next": {
+    "message": "Weiter"
+  },
+  "previous": {
+    "message": "Zurück"
+  },
+  "nextChapter": {
+    "message": "Nächstes Kapitel"
+  },
+  "prevChapter": {
+    "message": "Vorheriges Kapitel"
+  },
+  "noNextChapter": {
+    "message": "Kein nächstes Kapitel"
+  },
+  "noPrevChapter": {
+    "message": "Kein vorheriges Kapitel"
+  },
+  "endOfChapter": {
+    "message": "Ende des Kapitels"
+  },
+  "endOfChapterN": {
+    "message": "Ende von Kapitel $NUM$",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "Chapter or page number"
+      }
+    }
+  },
+  "startOfChapter": {
+    "message": "Anfang des Kapitels"
+  },
+  "pressAgainNext": {
+    "message": "Drücke erneut $KEY$, um weiterzulesen",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "Keyboard key"
+      }
+    }
+  },
+  "pressAgainPrev": {
+    "message": "Drücke erneut $KEY$, um zum vorherigen Kapitel zu gehen",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "Keyboard key"
+      }
+    }
+  },
+  "lastChapter": {
+    "message": "Das ist das neueste verfügbare Kapitel."
+  },
+  "firstChapter": {
+    "message": "Das ist das erste Kapitel."
+  },
+  "offsetTip": {
+    "message": "Cover einzeln / Paare verschieben"
+  },
+  "offsetOnTip": {
+    "message": "Cover einzeln · Klicken zum Verschieben"
+  },
+  "offsetOffTip": {
+    "message": "Paare verschoben · Klicken zum Zurücksetzen"
+  },
+  "onlyInDouble": {
+    "message": "Nur im Doppelseitenmodus"
+  },
+  "coverAlone": {
+    "message": "Cover einzeln"
+  },
+  "pairedFromStart": {
+    "message": "Seiten von Anfang an gepaart"
+  },
+  "dirRtlShort": {
+    "message": "RTL"
+  },
+  "dirLtrShort": {
+    "message": "LTR"
+  },
+  "dirRtlTip": {
+    "message": "Japanische Leserichtung (rechts → links)"
+  },
+  "dirLtrTip": {
+    "message": "Westliche Leserichtung (links → rechts)"
+  },
+  "dirRtlFlash": {
+    "message": "Japanisch · rechts → links"
+  },
+  "dirLtrFlash": {
+    "message": "Westlich · links → rechts"
+  },
+  "dirJapanese": {
+    "message": "← Japanisch"
+  },
+  "dirWestern": {
+    "message": "Westlich →"
+  },
+  "readingDirection": {
+    "message": "Leserichtung"
+  },
+  "darkMode": {
+    "message": "Dunkelmodus"
+  },
+  "lightMode": {
+    "message": "Hellmodus"
+  },
+  "themeToggle": {
+    "message": "Dunkel- / Hellmodus"
+  },
+  "fullscreen": {
+    "message": "Vollbild"
+  },
+  "exitFullscreen": {
+    "message": "Vollbild beenden"
+  },
+  "fullscreenUnavailable": {
+    "message": "Vollbild nicht verfügbar"
+  },
+  "shortcuts": {
+    "message": "Tastenkürzel"
+  },
+  "keyboardShortcuts": {
+    "message": "Tastenkürzel"
+  },
+  "backToSite": {
+    "message": "Zurück zur Website"
+  },
+  "close": {
+    "message": "Schließen"
+  },
+  "keyEsc": {
+    "message": "Esc"
+  },
+  "keySpace": {
+    "message": "Leertaste"
+  },
+  "pageN": {
+    "message": "Seite $NUM$",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "Chapter or page number"
+      }
+    }
+  },
+  "pagesCount": {
+    "message": "$COUNT$ Seiten",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "Number of pages"
+      }
+    }
+  },
+  "helpRtl": {
+    "message": "Japanische Leserichtung: Es geht nach links weiter, wie in einem Tankōbon."
+  },
+  "helpLtr": {
+    "message": "Westliche Leserichtung: Es geht nach rechts weiter."
+  },
+  "nextPage": {
+    "message": "Nächste Seite"
+  },
+  "prevPage": {
+    "message": "Vorherige Seite"
+  },
+  "startEnd": {
+    "message": "Anfang / Ende"
+  },
+  "chapterNextPrev": {
+    "message": "Nächstes / vorheriges Kapitel"
+  },
+  "modeCycle": {
+    "message": "Einzel / Doppel / Auto"
+  },
+  "shiftPairs": {
+    "message": "Paare verschieben"
+  },
+  "zoomFollows": {
+    "message": "Zoom (folgt der Maus)"
+  },
+  "helpFootRtl": {
+    "message": "Klick links: nächste Seite · Doppelklick in der Mitte: Zoom · Mausrad und Wischen gehen auch"
+  },
+  "helpFootLtr": {
+    "message": "Klick rechts: nächste Seite · Doppelklick in der Mitte: Zoom · Mausrad und Wischen gehen auch"
+  },
+  "consentTitle": {
+    "message": "Die Website wartet auf deine Cookie-Auswahl"
+  },
+  "consentSub": {
+    "message": "Solange das Banner nicht beantwortet ist, lädt die Website keine weiteren Seiten. Beantworte es und öffne den Reader erneut."
+  },
+  "consentAction": {
+    "message": "Antworten"
+  },
+  "loadingPages": {
+    "message": "Seiten werden geladen…"
+  },
+  "loadingPagesSub": {
+    "message": "Bewege die Maus: Die Website wartet auf Aktivität, bevor sie die Bilder sendet."
+  },
+  "chapterUnavailable": {
+    "message": "Kapitel nicht verfügbar"
+  },
+  "chapterUnavailableSub": {
+    "message": "Die Website hat das gewünschte Kapitel nicht geladen."
+  },
+  "launcherTitle": {
+    "message": "Manga Reader öffnen"
+  },
+  "launcherLabel": {
+    "message": "Im Buchmodus lesen"
+  },
+  "popupTagline": {
+    "message": "Manga-Reader im Buchmodus"
+  },
+  "read": {
+    "message": "Lesen"
+  },
+  "opened": {
+    "message": "Geöffnet"
+  },
+  "hintOpenChapter": {
+    "message": "Öffne ein Kapitel auf einer Manga-Website, um es im Buchmodus zu lesen."
+  },
+  "noPagesHere": {
+    "message": "Hier wurden keine Seiten gefunden. Öffne ein Kapitel."
+  },
+  "hintEnable": {
+    "message": "Aktiviere den Reader, um die Kapitel dieser Website im Buchmodus zu lesen."
+  },
+  "hintDisabled": {
+    "message": "Reader hier deaktiviert. Lade die Seite neu, um die ursprüngliche Website zu sehen."
+  },
+  "enable": {
+    "message": "Aktivieren"
+  },
+  "disable": {
+    "message": "Deaktivieren"
+  },
+  "enabling": {
+    "message": "Wird aktiviert…"
+  },
+  "failed": {
+    "message": "Fehlgeschlagen: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Error message"
+      }
+    }
+  },
+  "siteOn": {
+    "message": "Auf dieser Website aktiv"
+  },
+  "siteOff": {
+    "message": "Hier noch nicht aktiv"
+  },
+  "legendDisplay": {
+    "message": "Anzeige"
+  },
+  "legendTheme": {
+    "message": "Design"
+  },
+  "themeDark": {
+    "message": "Dunkel"
+  },
+  "themeLight": {
+    "message": "Hell"
+  },
+  "optCoverAloneSub": {
+    "message": "Im Doppelseitenmodus wird Seite 1 einzeln gezeigt"
+  },
+  "optAutoOpen": {
+    "message": "Automatisch öffnen"
+  },
+  "optAutoOpenSub": {
+    "message": "Startet den Reader, sobald ein Kapitel geöffnet ist"
+  },
+  "footPages": {
+    "message": "Seiten"
+  },
+  "footMode": {
+    "message": "Modus"
+  },
+  "footTheme": {
+    "message": "Design"
+  },
+  "footHelp": {
+    "message": "Hilfe"
+  }
+}

@@ -1,0 +1,377 @@
+{
+  "extName": {
+    "message": "Manga Reader – Mode Buku"
+  },
+  "extShortName": {
+    "message": "Manga Reader"
+  },
+  "extDescription": {
+    "message": "Baca manga seperti buku sungguhan: halaman penuh, halaman ganda, arah baca kanan ke kiri, animasi membalik halaman, dan mode gelap."
+  },
+  "modeSingle": {
+    "message": "Satu halaman"
+  },
+  "modeDouble": {
+    "message": "Halaman ganda"
+  },
+  "modeAuto": {
+    "message": "Otomatis"
+  },
+  "modeAutoTip": {
+    "message": "Otomatis: halaman ganda jika layar cukup lebar"
+  },
+  "autoDoubleFlash": {
+    "message": "Otomatis · halaman ganda"
+  },
+  "autoSingleFlash": {
+    "message": "Otomatis · satu halaman"
+  },
+  "animFlip": {
+    "message": "Balik halaman"
+  },
+  "animSlide": {
+    "message": "Geser"
+  },
+  "animNone": {
+    "message": "Instan"
+  },
+  "animNoneShort": {
+    "message": "Tidak ada"
+  },
+  "animation": {
+    "message": "Animasi"
+  },
+  "animationTip": {
+    "message": "Animasi: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Animation name"
+      }
+    }
+  },
+  "chapter": {
+    "message": "Bab"
+  },
+  "chapterN": {
+    "message": "Bab $NUM$",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "Chapter or page number"
+      }
+    }
+  },
+  "chShort": {
+    "message": "Bab $NUM$",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "Chapter or page number"
+      }
+    }
+  },
+  "chapters": {
+    "message": "Daftar bab"
+  },
+  "allChapters": {
+    "message": "Semua bab"
+  },
+  "reading": {
+    "message": "Membaca"
+  },
+  "next": {
+    "message": "Berikutnya"
+  },
+  "previous": {
+    "message": "Sebelumnya"
+  },
+  "nextChapter": {
+    "message": "Bab berikutnya"
+  },
+  "prevChapter": {
+    "message": "Bab sebelumnya"
+  },
+  "noNextChapter": {
+    "message": "Tidak ada bab berikutnya"
+  },
+  "noPrevChapter": {
+    "message": "Tidak ada bab sebelumnya"
+  },
+  "endOfChapter": {
+    "message": "Akhir bab"
+  },
+  "endOfChapterN": {
+    "message": "Akhir bab $NUM$",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "Chapter or page number"
+      }
+    }
+  },
+  "startOfChapter": {
+    "message": "Awal bab"
+  },
+  "pressAgainNext": {
+    "message": "Tekan $KEY$ lagi untuk melanjutkan",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "Keyboard key"
+      }
+    }
+  },
+  "pressAgainPrev": {
+    "message": "Tekan $KEY$ lagi untuk kembali ke bab sebelumnya",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "Keyboard key"
+      }
+    }
+  },
+  "lastChapter": {
+    "message": "Ini bab terakhir yang tersedia."
+  },
+  "firstChapter": {
+    "message": "Ini bab pertama."
+  },
+  "offsetTip": {
+    "message": "Sampul sendiri / geser pasangan"
+  },
+  "offsetOnTip": {
+    "message": "Sampul sendiri · klik untuk menggeser"
+  },
+  "offsetOffTip": {
+    "message": "Pasangan digeser · klik untuk memulihkan"
+  },
+  "onlyInDouble": {
+    "message": "Tersedia di mode halaman ganda"
+  },
+  "coverAlone": {
+    "message": "Sampul sendiri"
+  },
+  "pairedFromStart": {
+    "message": "Halaman dipasangkan sejak awal"
+  },
+  "dirRtlShort": {
+    "message": "RTL"
+  },
+  "dirLtrShort": {
+    "message": "LTR"
+  },
+  "dirRtlTip": {
+    "message": "Arah Jepang (kanan → kiri)"
+  },
+  "dirLtrTip": {
+    "message": "Arah Barat (kiri → kanan)"
+  },
+  "dirRtlFlash": {
+    "message": "Arah Jepang · kanan → kiri"
+  },
+  "dirLtrFlash": {
+    "message": "Arah Barat · kiri → kanan"
+  },
+  "dirJapanese": {
+    "message": "← Jepang"
+  },
+  "dirWestern": {
+    "message": "Barat →"
+  },
+  "readingDirection": {
+    "message": "Arah baca"
+  },
+  "darkMode": {
+    "message": "Mode gelap"
+  },
+  "lightMode": {
+    "message": "Mode terang"
+  },
+  "themeToggle": {
+    "message": "Mode gelap / terang"
+  },
+  "fullscreen": {
+    "message": "Layar penuh"
+  },
+  "exitFullscreen": {
+    "message": "Keluar dari layar penuh"
+  },
+  "fullscreenUnavailable": {
+    "message": "Layar penuh tidak tersedia"
+  },
+  "shortcuts": {
+    "message": "Pintasan"
+  },
+  "keyboardShortcuts": {
+    "message": "Pintasan keyboard"
+  },
+  "backToSite": {
+    "message": "Kembali ke situs"
+  },
+  "close": {
+    "message": "Tutup"
+  },
+  "keyEsc": {
+    "message": "Esc"
+  },
+  "keySpace": {
+    "message": "Spasi"
+  },
+  "pageN": {
+    "message": "Halaman $NUM$",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "Chapter or page number"
+      }
+    }
+  },
+  "pagesCount": {
+    "message": "$COUNT$ halaman",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "Number of pages"
+      }
+    }
+  },
+  "helpRtl": {
+    "message": "Arah Jepang: maju ke kiri, seperti di tankōbon."
+  },
+  "helpLtr": {
+    "message": "Arah Barat: maju ke kanan."
+  },
+  "nextPage": {
+    "message": "Halaman berikutnya"
+  },
+  "prevPage": {
+    "message": "Halaman sebelumnya"
+  },
+  "startEnd": {
+    "message": "Awal / akhir"
+  },
+  "chapterNextPrev": {
+    "message": "Bab berikutnya / sebelumnya"
+  },
+  "modeCycle": {
+    "message": "Satu / ganda / otomatis"
+  },
+  "shiftPairs": {
+    "message": "Geser pasangan"
+  },
+  "zoomFollows": {
+    "message": "Zoom (mengikuti mouse)"
+  },
+  "helpFootRtl": {
+    "message": "Klik kiri: halaman berikutnya · klik dua kali di tengah: zoom · roda mouse dan geser juga bisa"
+  },
+  "helpFootLtr": {
+    "message": "Klik kanan: halaman berikutnya · klik dua kali di tengah: zoom · roda mouse dan geser juga bisa"
+  },
+  "consentTitle": {
+    "message": "Situs menunggu pilihan cookie Anda"
+  },
+  "consentSub": {
+    "message": "Selama banner belum dijawab, situs tidak memuat halaman berikutnya. Jawab dulu, lalu buka lagi pembacanya."
+  },
+  "consentAction": {
+    "message": "Jawab"
+  },
+  "loadingPages": {
+    "message": "Memuat halaman…"
+  },
+  "loadingPagesSub": {
+    "message": "Gerakkan mouse: situs menunggu aktivitas sebelum mengirim gambar."
+  },
+  "chapterUnavailable": {
+    "message": "Bab tidak tersedia"
+  },
+  "chapterUnavailableSub": {
+    "message": "Situs tidak memuat bab yang diminta."
+  },
+  "launcherTitle": {
+    "message": "Buka Manga Reader"
+  },
+  "launcherLabel": {
+    "message": "Baca dalam mode buku"
+  },
+  "popupTagline": {
+    "message": "Pembaca manga mode buku"
+  },
+  "read": {
+    "message": "Baca"
+  },
+  "opened": {
+    "message": "Terbuka"
+  },
+  "hintOpenChapter": {
+    "message": "Buka sebuah bab di situs manga untuk membacanya dalam mode buku."
+  },
+  "noPagesHere": {
+    "message": "Tidak ada halaman manga di sini. Buka sebuah bab."
+  },
+  "hintEnable": {
+    "message": "Aktifkan pembaca untuk membaca bab situs ini dalam mode buku."
+  },
+  "hintDisabled": {
+    "message": "Pembaca dinonaktifkan di sini. Muat ulang halaman untuk kembali ke situs asli."
+  },
+  "enable": {
+    "message": "Aktifkan"
+  },
+  "disable": {
+    "message": "Nonaktifkan"
+  },
+  "enabling": {
+    "message": "Mengaktifkan…"
+  },
+  "failed": {
+    "message": "Gagal: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Error message"
+      }
+    }
+  },
+  "siteOn": {
+    "message": "Aktif di situs ini"
+  },
+  "siteOff": {
+    "message": "Belum aktif di sini"
+  },
+  "legendDisplay": {
+    "message": "Tampilan"
+  },
+  "legendTheme": {
+    "message": "Tema"
+  },
+  "themeDark": {
+    "message": "Gelap"
+  },
+  "themeLight": {
+    "message": "Terang"
+  },
+  "optCoverAloneSub": {
+    "message": "Di mode halaman ganda, halaman 1 tampil sendiri"
+  },
+  "optAutoOpen": {
+    "message": "Buka otomatis"
+  },
+  "optAutoOpenSub": {
+    "message": "Memulai pembaca begitu sebuah bab dibuka"
+  },
+  "footPages": {
+    "message": "halaman"
+  },
+  "footMode": {
+    "message": "mode"
+  },
+  "footTheme": {
+    "message": "tema"
+  },
+  "footHelp": {
+    "message": "bantuan"
+  }
+}

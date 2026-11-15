@@ -1,0 +1,5 @@
+dist/
+*.zip
+.DS_Store
+# Étude de marché privée
+docs/etude-de-marche.md

@@ -1,0 +1,377 @@
+{
+  "extName": {
+    "message": "Manga Reader – ブックモード"
+  },
+  "extShortName": {
+    "message": "Manga Reader"
+  },
+  "extDescription": {
+    "message": "本物の本のようにマンガを読もう：全画面表示、見開き、右から左への読み方、ページめくりアニメーション、ダークモード。"
+  },
+  "modeSingle": {
+    "message": "単ページ"
+  },
+  "modeDouble": {
+    "message": "見開き"
+  },
+  "modeAuto": {
+    "message": "自動"
+  },
+  "modeAutoTip": {
+    "message": "自動：画面が広ければ見開き"
+  },
+  "autoDoubleFlash": {
+    "message": "自動 · 見開き"
+  },
+  "autoSingleFlash": {
+    "message": "自動 · 単ページ"
+  },
+  "animFlip": {
+    "message": "ページめくり"
+  },
+  "animSlide": {
+    "message": "スライド"
+  },
+  "animNone": {
+    "message": "即時"
+  },
+  "animNoneShort": {
+    "message": "なし"
+  },
+  "animation": {
+    "message": "アニメーション"
+  },
+  "animationTip": {
+    "message": "アニメーション：$NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Animation name"
+      }
+    }
+  },
+  "chapter": {
+    "message": "チャプター"
+  },
+  "chapterN": {
+    "message": "第$NUM$話",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "Chapter or page number"
+      }
+    }
+  },
+  "chShort": {
+    "message": "第$NUM$話",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "Chapter or page number"
+      }
+    }
+  },
+  "chapters": {
+    "message": "話一覧"
+  },
+  "allChapters": {
+    "message": "すべての話"
+  },
+  "reading": {
+    "message": "閲覧中"
+  },
+  "next": {
+    "message": "次へ"
+  },
+  "previous": {
+    "message": "前へ"
+  },
+  "nextChapter": {
+    "message": "次の話"
+  },
+  "prevChapter": {
+    "message": "前の話"
+  },
+  "noNextChapter": {
+    "message": "次の話はありません"
+  },
+  "noPrevChapter": {
+    "message": "前の話はありません"
+  },
+  "endOfChapter": {
+    "message": "話の終わり"
+  },
+  "endOfChapterN": {
+    "message": "第$NUM$話 終わり",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "Chapter or page number"
+      }
+    }
+  },
+  "startOfChapter": {
+    "message": "話の始まり"
+  },
+  "pressAgainNext": {
+    "message": "もう一度 $KEY$ を押すと続きへ",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "Keyboard key"
+      }
+    }
+  },
+  "pressAgainPrev": {
+    "message": "もう一度 $KEY$ を押すと前の話へ",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "Keyboard key"
+      }
+    }
+  },
+  "lastChapter": {
+    "message": "これが最新の話です。"
+  },
+  "firstChapter": {
+    "message": "これが最初の話です。"
+  },
+  "offsetTip": {
+    "message": "表紙を単独表示 / 見開きをずらす"
+  },
+  "offsetOnTip": {
+    "message": "表紙を単独表示 · クリックでずらす"
+  },
+  "offsetOffTip": {
+    "message": "見開きをずらし中 · クリックで戻す"
+  },
+  "onlyInDouble": {
+    "message": "見開きモードで使えます"
+  },
+  "coverAlone": {
+    "message": "表紙を単独表示"
+  },
+  "pairedFromStart": {
+    "message": "最初から見開きで表示"
+  },
+  "dirRtlShort": {
+    "message": "右開き"
+  },
+  "dirLtrShort": {
+    "message": "左開き"
+  },
+  "dirRtlTip": {
+    "message": "右開き（右 → 左）"
+  },
+  "dirLtrTip": {
+    "message": "左開き（左 → 右）"
+  },
+  "dirRtlFlash": {
+    "message": "右開き · 右 → 左"
+  },
+  "dirLtrFlash": {
+    "message": "左開き · 左 → 右"
+  },
+  "dirJapanese": {
+    "message": "← 右開き"
+  },
+  "dirWestern": {
+    "message": "左開き →"
+  },
+  "readingDirection": {
+    "message": "読む方向"
+  },
+  "darkMode": {
+    "message": "ダークモード"
+  },
+  "lightMode": {
+    "message": "ライトモード"
+  },
+  "themeToggle": {
+    "message": "ダーク / ライト"
+  },
+  "fullscreen": {
+    "message": "全画面"
+  },
+  "exitFullscreen": {
+    "message": "全画面を終了"
+  },
+  "fullscreenUnavailable": {
+    "message": "全画面にできません"
+  },
+  "shortcuts": {
+    "message": "ショートカット"
+  },
+  "keyboardShortcuts": {
+    "message": "キーボードショートカット"
+  },
+  "backToSite": {
+    "message": "サイトに戻る"
+  },
+  "close": {
+    "message": "閉じる"
+  },
+  "keyEsc": {
+    "message": "Esc"
+  },
+  "keySpace": {
+    "message": "スペース"
+  },
+  "pageN": {
+    "message": "$NUM$ページ",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "Chapter or page number"
+      }
+    }
+  },
+  "pagesCount": {
+    "message": "$COUNT$ページ",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "Number of pages"
+      }
+    }
+  },
+  "helpRtl": {
+    "message": "右開き：単行本と同じく左へ進みます。"
+  },
+  "helpLtr": {
+    "message": "左開き：右へ進みます。"
+  },
+  "nextPage": {
+    "message": "次のページ"
+  },
+  "prevPage": {
+    "message": "前のページ"
+  },
+  "startEnd": {
+    "message": "最初 / 最後"
+  },
+  "chapterNextPrev": {
+    "message": "次の話 / 前の話"
+  },
+  "modeCycle": {
+    "message": "単 / 見開き / 自動"
+  },
+  "shiftPairs": {
+    "message": "見開きをずらす"
+  },
+  "zoomFollows": {
+    "message": "ズーム（マウスに追従）"
+  },
+  "helpFootRtl": {
+    "message": "左クリック：次のページ · 中央をダブルクリック：ズーム · ホイールやスワイプも使えます"
+  },
+  "helpFootLtr": {
+    "message": "右クリック：次のページ · 中央をダブルクリック：ズーム · ホイールやスワイプも使えます"
+  },
+  "consentTitle": {
+    "message": "サイトがCookieの選択を待っています"
+  },
+  "consentSub": {
+    "message": "バナーに回答するまで、サイトは続きのページを読み込みません。回答してからリーダーを開き直してください。"
+  },
+  "consentAction": {
+    "message": "回答する"
+  },
+  "loadingPages": {
+    "message": "ページを読み込み中…"
+  },
+  "loadingPagesSub": {
+    "message": "マウスを動かしてください。サイトは操作を検知してから画像を送ります。"
+  },
+  "chapterUnavailable": {
+    "message": "話を読み込めません"
+  },
+  "chapterUnavailableSub": {
+    "message": "サイトが指定の話を読み込みませんでした。"
+  },
+  "launcherTitle": {
+    "message": "Manga Reader を開く"
+  },
+  "launcherLabel": {
+    "message": "ブックモードで読む"
+  },
+  "popupTagline": {
+    "message": "ブックモードのマンガリーダー"
+  },
+  "read": {
+    "message": "読む"
+  },
+  "opened": {
+    "message": "表示中"
+  },
+  "hintOpenChapter": {
+    "message": "マンガサイトで話を開くと、ブックモードで読めます。"
+  },
+  "noPagesHere": {
+    "message": "ここにはページが見つかりません。話を開いてください。"
+  },
+  "hintEnable": {
+    "message": "リーダーを有効にすると、このサイトの話をブックモードで読めます。"
+  },
+  "hintDisabled": {
+    "message": "このサイトではリーダーを無効にしました。ページを再読み込みすると元に戻ります。"
+  },
+  "enable": {
+    "message": "有効にする"
+  },
+  "disable": {
+    "message": "無効にする"
+  },
+  "enabling": {
+    "message": "有効化中…"
+  },
+  "failed": {
+    "message": "失敗：$ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Error message"
+      }
+    }
+  },
+  "siteOn": {
+    "message": "このサイトで有効"
+  },
+  "siteOff": {
+    "message": "まだ有効になっていません"
+  },
+  "legendDisplay": {
+    "message": "表示"
+  },
+  "legendTheme": {
+    "message": "テーマ"
+  },
+  "themeDark": {
+    "message": "ダーク"
+  },
+  "themeLight": {
+    "message": "ライト"
+  },
+  "optCoverAloneSub": {
+    "message": "見開きでは1ページ目を単独で表示"
+  },
+  "optAutoOpen": {
+    "message": "自動で開く"
+  },
+  "optAutoOpenSub": {
+    "message": "話を開くとすぐにリーダーを起動"
+  },
+  "footPages": {
+    "message": "ページ"
+  },
+  "footMode": {
+    "message": "モード"
+  },
+  "footTheme": {
+    "message": "テーマ"
+  },
+  "footHelp": {
+    "message": "ヘルプ"
+  }
+}

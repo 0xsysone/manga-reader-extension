@@ -1,0 +1,377 @@
+{
+  "extName": {
+    "message": "Manga Reader – Mode livre"
+  },
+  "extShortName": {
+    "message": "Manga Reader"
+  },
+  "extDescription": {
+    "message": "Lisez vos mangas comme un vrai livre : page entière, double page, sens de lecture japonais, pages qui se tournent et mode sombre."
+  },
+  "modeSingle": {
+    "message": "Une page"
+  },
+  "modeDouble": {
+    "message": "Double page"
+  },
+  "modeAuto": {
+    "message": "Auto"
+  },
+  "modeAutoTip": {
+    "message": "Auto : double page si l’écran le permet"
+  },
+  "autoDoubleFlash": {
+    "message": "Auto · double page"
+  },
+  "autoSingleFlash": {
+    "message": "Auto · une page"
+  },
+  "animFlip": {
+    "message": "Page tournée"
+  },
+  "animSlide": {
+    "message": "Glissement"
+  },
+  "animNone": {
+    "message": "Instantané"
+  },
+  "animNoneShort": {
+    "message": "Aucune"
+  },
+  "animation": {
+    "message": "Animation"
+  },
+  "animationTip": {
+    "message": "Animation : $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Animation name"
+      }
+    }
+  },
+  "chapter": {
+    "message": "Chapitre"
+  },
+  "chapterN": {
+    "message": "Chapitre $NUM$",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "Chapter or page number"
+      }
+    }
+  },
+  "chShort": {
+    "message": "Ch. $NUM$",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "Chapter or page number"
+      }
+    }
+  },
+  "chapters": {
+    "message": "Chapitres"
+  },
+  "allChapters": {
+    "message": "Tous les chapitres"
+  },
+  "reading": {
+    "message": "Lecture"
+  },
+  "next": {
+    "message": "Suivant"
+  },
+  "previous": {
+    "message": "Précédent"
+  },
+  "nextChapter": {
+    "message": "Chapitre suivant"
+  },
+  "prevChapter": {
+    "message": "Chapitre précédent"
+  },
+  "noNextChapter": {
+    "message": "Pas de chapitre suivant"
+  },
+  "noPrevChapter": {
+    "message": "Pas de chapitre précédent"
+  },
+  "endOfChapter": {
+    "message": "Fin du chapitre"
+  },
+  "endOfChapterN": {
+    "message": "Fin du chapitre $NUM$",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "Chapter or page number"
+      }
+    }
+  },
+  "startOfChapter": {
+    "message": "Début du chapitre"
+  },
+  "pressAgainNext": {
+    "message": "Appuyez encore sur $KEY$ pour continuer",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "Keyboard key"
+      }
+    }
+  },
+  "pressAgainPrev": {
+    "message": "Appuyez encore sur $KEY$ pour revenir au précédent",
+    "placeholders": {
+      "key": {
+        "content": "$1",
+        "example": "Keyboard key"
+      }
+    }
+  },
+  "lastChapter": {
+    "message": "C’est le dernier chapitre disponible."
+  },
+  "firstChapter": {
+    "message": "C’est le premier chapitre."
+  },
+  "offsetTip": {
+    "message": "Couverture seule / décaler les paires"
+  },
+  "offsetOnTip": {
+    "message": "Couverture seule · cliquer pour décaler"
+  },
+  "offsetOffTip": {
+    "message": "Paires décalées · cliquer pour rétablir"
+  },
+  "onlyInDouble": {
+    "message": "Disponible en double page"
+  },
+  "coverAlone": {
+    "message": "Couverture seule"
+  },
+  "pairedFromStart": {
+    "message": "Pages appariées dès le début"
+  },
+  "dirRtlShort": {
+    "message": "RTL"
+  },
+  "dirLtrShort": {
+    "message": "LTR"
+  },
+  "dirRtlTip": {
+    "message": "Sens japonais (droite → gauche)"
+  },
+  "dirLtrTip": {
+    "message": "Sens occidental (gauche → droite)"
+  },
+  "dirRtlFlash": {
+    "message": "Sens japonais · droite → gauche"
+  },
+  "dirLtrFlash": {
+    "message": "Sens occidental · gauche → droite"
+  },
+  "dirJapanese": {
+    "message": "← Japonais"
+  },
+  "dirWestern": {
+    "message": "Occidental →"
+  },
+  "readingDirection": {
+    "message": "Sens de lecture"
+  },
+  "darkMode": {
+    "message": "Mode sombre"
+  },
+  "lightMode": {
+    "message": "Mode clair"
+  },
+  "themeToggle": {
+    "message": "Mode sombre / clair"
+  },
+  "fullscreen": {
+    "message": "Plein écran"
+  },
+  "exitFullscreen": {
+    "message": "Quitter le plein écran"
+  },
+  "fullscreenUnavailable": {
+    "message": "Plein écran indisponible"
+  },
+  "shortcuts": {
+    "message": "Raccourcis"
+  },
+  "keyboardShortcuts": {
+    "message": "Raccourcis clavier"
+  },
+  "backToSite": {
+    "message": "Revenir au site"
+  },
+  "close": {
+    "message": "Fermer"
+  },
+  "keyEsc": {
+    "message": "Échap"
+  },
+  "keySpace": {
+    "message": "Espace"
+  },
+  "pageN": {
+    "message": "Page $NUM$",
+    "placeholders": {
+      "num": {
+        "content": "$1",
+        "example": "Chapter or page number"
+      }
+    }
+  },
+  "pagesCount": {
+    "message": "$COUNT$ pages",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "Number of pages"
+      }
+    }
+  },
+  "helpRtl": {
+    "message": "Sens japonais : on avance vers la gauche, comme dans un tankōbon."
+  },
+  "helpLtr": {
+    "message": "Sens occidental : on avance vers la droite."
+  },
+  "nextPage": {
+    "message": "Page suivante"
+  },
+  "prevPage": {
+    "message": "Page précédente"
+  },
+  "startEnd": {
+    "message": "Début / fin"
+  },
+  "chapterNextPrev": {
+    "message": "Chapitre suivant / préc."
+  },
+  "modeCycle": {
+    "message": "Une / double page / auto"
+  },
+  "shiftPairs": {
+    "message": "Décaler les paires"
+  },
+  "zoomFollows": {
+    "message": "Zoom (suit la souris)"
+  },
+  "helpFootRtl": {
+    "message": "Clic à gauche : page suivante · double-clic au centre : zoom · molette et balayage acceptés"
+  },
+  "helpFootLtr": {
+    "message": "Clic à droite : page suivante · double-clic au centre : zoom · molette et balayage acceptés"
+  },
+  "consentTitle": {
+    "message": "Le site attend votre choix sur les cookies"
+  },
+  "consentSub": {
+    "message": "Tant que le bandeau n’a pas de réponse, il ne charge pas la suite. Répondez-y, puis rouvrez le lecteur."
+  },
+  "consentAction": {
+    "message": "Répondre"
+  },
+  "loadingPages": {
+    "message": "Chargement des pages…"
+  },
+  "loadingPagesSub": {
+    "message": "Bougez la souris : le site attend une activité pour envoyer les images."
+  },
+  "chapterUnavailable": {
+    "message": "Chapitre indisponible"
+  },
+  "chapterUnavailableSub": {
+    "message": "Le site n’a pas chargé le chapitre demandé."
+  },
+  "launcherTitle": {
+    "message": "Ouvrir Manga Reader"
+  },
+  "launcherLabel": {
+    "message": "Lire en mode livre"
+  },
+  "popupTagline": {
+    "message": "Lecteur manga en mode livre"
+  },
+  "read": {
+    "message": "Lire"
+  },
+  "opened": {
+    "message": "Ouvert"
+  },
+  "hintOpenChapter": {
+    "message": "Ouvrez un chapitre sur un site de manga pour le lire en mode livre."
+  },
+  "noPagesHere": {
+    "message": "Aucune page de scan détectée ici. Ouvrez un chapitre."
+  },
+  "hintEnable": {
+    "message": "Activez le lecteur pour lire les chapitres de ce site en mode livre."
+  },
+  "hintDisabled": {
+    "message": "Lecteur désactivé ici. Rechargez la page pour retrouver le site d’origine."
+  },
+  "enable": {
+    "message": "Activer"
+  },
+  "disable": {
+    "message": "Désactiver"
+  },
+  "enabling": {
+    "message": "Activation…"
+  },
+  "failed": {
+    "message": "Échec : $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1",
+        "example": "Error message"
+      }
+    }
+  },
+  "siteOn": {
+    "message": "Actif sur ce site"
+  },
+  "siteOff": {
+    "message": "Pas encore actif ici"
+  },
+  "legendDisplay": {
+    "message": "Affichage"
+  },
+  "legendTheme": {
+    "message": "Thème"
+  },
+  "themeDark": {
+    "message": "Sombre"
+  },
+  "themeLight": {
+    "message": "Clair"
+  },
+  "optCoverAloneSub": {
+    "message": "En double page, la 1ʳᵉ page est affichée seule"
+  },
+  "optAutoOpen": {
+    "message": "Ouvrir automatiquement"
+  },
+  "optAutoOpenSub": {
+    "message": "Lance le lecteur dès qu’un chapitre est ouvert"
+  },
+  "footPages": {
+    "message": "pages"
+  },
+  "footMode": {
+    "message": "mode"
+  },
+  "footTheme": {
+    "message": "thème"
+  },
+  "footHelp": {
+    "message": "aide"
+  }
+}
