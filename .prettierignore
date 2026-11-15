@@ -1,0 +1,7 @@
+.output/
+.wxt/
+dist/
+coverage/
+package-lock.json
+docs/media/
+tests/fixtures/

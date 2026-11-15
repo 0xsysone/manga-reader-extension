@@ -1,6 +1,6 @@
 # Chrome Web Store listing
 
-Upload `dist/manga-reader-1.5.0.zip` (built from the files listed in the README). The name and short description come from `_locales/*/messages.json`, so each language gets its own.
+Run `npm run zip` and upload `.output/manga-reader-extension-<version>-chrome.zip`. The name and short description come from `src/locales/*.json` (`extName`, `extDescription`), so each language gets its own.
 
 ## Store fields
 
@@ -8,13 +8,13 @@ Upload `dist/manga-reader-1.5.0.zip` (built from the files listed in the README)
 - **Language:** English (default). Translations ship for fr, es, pt_BR, de, id, ja.
 - **Screenshots (1280×800):** export `docs/media/screenshot-dark.jpg` and `screenshot-light.jpg` at 1280×800.
 - **Small promo tile (440×280):** optional.
-- **Homepage / support URL:** https://github.com/0xsysone/manga-reader-book-mode
+- **Homepage / support URL:** https://github.com/0xsysone/manga-reader-extension
 
 ## Detailed description
 
 Read manga like a real book, right in your browser.
 
-Most manga sites show a chapter as one long vertical strip. Book Mode puts the pages you're already viewing into a proper reader:
+Most manga sites show a chapter as one long vertical strip. Manga Reader Extension puts the pages you're already viewing into a proper reader:
 
 • Full-page fit: every page fills the screen, no scrolling, no cropping.
 • Double-page spreads, like an open tankōbon. Auto mode switches on when the window is wide enough; the cover stays alone and wide art stays in one piece.
@@ -30,9 +30,9 @@ How it works: open a chapter, click the extension icon, then Enable in the site 
 
 Private by design: no account, no tracking, no analytics. The only network call is to the public MangaDex API when you read on mangadex.org.
 
-Book Mode is a display tool. It hosts no content and links to none: it only rearranges images the site you're visiting already shows you. It does not work on DRM-protected readers. Please support the creators and read through official sources whenever you can.
+Manga Reader Extension is a display tool. It hosts no content and links to none: it only rearranges images the site you're visiting already shows you. It does not work on DRM-protected readers. Please support the creators and read through official sources whenever you can.
 
-Open source (MIT): https://github.com/0xsysone/manga-reader-book-mode
+Open source (MIT): https://github.com/0xsysone/manga-reader-extension
 
 ## Privacy tab
 

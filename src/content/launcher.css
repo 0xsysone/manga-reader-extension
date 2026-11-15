@@ -1,0 +1,88 @@
+/*
+ * Launcher button. Bundled with the reader stylesheet and injected in every shadow root of the content
+ * script, so every rule is scoped to the `mr-launcher` host or to `mr-launcher__*` classes.
+ */
+:host(mr-launcher) {
+  position: fixed !important;
+  right: 22px !important;
+  bottom: 22px !important;
+  z-index: 2147483646 !important;
+  display: block !important;
+}
+
+.mr-launcher__button {
+  all: unset;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 18px 8px 8px;
+  border-radius: 999px;
+  font:
+    600 13.5px/1 -apple-system,
+    BlinkMacSystemFont,
+    'SF Pro Text',
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+  color: #f3f1ed;
+  background: rgba(16, 16, 19, 0.82);
+  backdrop-filter: blur(18px) saturate(1.5);
+  -webkit-backdrop-filter: blur(18px) saturate(1.5);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  box-shadow: 0 18px 40px -16px rgba(0, 0, 0, 0.7);
+  transform: translateY(16px) scale(0.96);
+  opacity: 0;
+  transition:
+    transform 0.6s cubic-bezier(0.34, 1.4, 0.64, 1),
+    opacity 0.4s ease,
+    box-shadow 0.3s ease;
+}
+
+.mr-launcher__button.mr-launcher--visible {
+  transform: none;
+  opacity: 1;
+}
+
+.mr-launcher__button:hover {
+  box-shadow: 0 22px 50px -14px rgba(229, 72, 45, 0.55);
+}
+
+.mr-launcher__button:active {
+  transform: scale(0.96);
+}
+
+.mr-launcher__button:focus-visible {
+  outline: 2px solid #e5482d;
+  outline-offset: 3px;
+}
+
+.mr-launcher__seal {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #e5482d;
+  color: #fff;
+  font:
+    600 15px/1 'Hiragino Mincho ProN',
+    'Yu Mincho',
+    serif;
+}
+
+.mr-launcher__count {
+  display: block;
+  font-weight: 500;
+  font-size: 11px;
+  opacity: 0.55;
+  margin-top: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mr-launcher__button {
+    transition: none;
+    transform: none;
+  }
+}
