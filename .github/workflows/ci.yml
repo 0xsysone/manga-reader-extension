@@ -30,4 +30,6 @@ jobs:
         with:
           name: extension-packages
           path: .output/*.zip
+          # WXT writes to `.output/`, which upload-artifact skips by default as a hidden folder.
+          include-hidden-files: true
           if-no-files-found: error
