@@ -1,21 +1,25 @@
-# Manga Reader – Book Mode 読
+# Manga Reader Extension 読
 
 Lecteur de manga en mode livre (anciennement « Yomu »).
 
 Extension Chrome (Manifest V3) qui remplace la lecture en défilement des sites de scans par un vrai lecteur de livre. Elle s'active en un clic, site par site.
 
 - **Page entière à l'écran** : chaque page est ajustée à la hauteur, sans défilement.
-- **Double page** comme un tankōbon ouvert. En mode *Auto*, la double page s'active quand l'écran est assez large. La couverture s'affiche seule, et les dessins paysage (doubles pages d'origine) restent d'un seul tenant.
+- **Double page** comme un tankōbon ouvert. En mode _Auto_, la double page s'active quand l'écran est assez large. La couverture s'affiche seule, et les dessins paysage (doubles pages d'origine) restent d'un seul tenant.
 - **Sens de lecture japonais** (droite → gauche) par défaut : `←` avance, `→` recule, la première page d'une planche est à droite. Le sens occidental est disponible.
-- **Pages qui se tournent** : en 3D autour du dos du livre, avec ombres portées, pénombre et reflet. Autres choix : *Glissement* ou *Aucune* animation.
+- **Pages qui se tournent** : en 3D autour du dos du livre, avec ombres portées, pénombre et reflet. Autres choix : _Glissement_ ou _Aucune_ animation.
 - **Mode sombre** (fond noir) ou clair (papier).
 - Barre de progression orientée selon le sens de lecture, avec aperçu au survol. Passage au chapitre suivant ou précédent ; le précédent s'ouvre sur sa dernière page.
 
 ## Installation
 
-1. Ouvrir `chrome://extensions`.
-2. Activer **Mode développeur** (en haut à droite).
-3. **Charger l'extension non empaquetée** → sélectionner le dossier du projet.
+Il faut [Node.js](https://nodejs.org) 20.19 ou plus récent.
+
+1. Dans le dossier du projet : `npm ci` puis `npm run build`.
+2. Ouvrir `chrome://extensions` et activer **Mode développeur** (en haut à droite).
+3. **Charger l'extension non empaquetée** → sélectionner `.output/chrome-mv3`.
+
+Pour Firefox : `npm run build:firefox`, puis charger `.output/firefox-mv3` depuis `about:debugging`.
 
 ## Activer un site
 
@@ -58,43 +62,40 @@ Izneo dessine les pages dans un `<canvas>` à partir de données protégées (v�
 
 ## Raccourcis
 
-| Action | Touches |
-| --- | --- |
-| Page suivante / précédente | `←` / `→` en japonais (inversé en occidental), `Espace` / `⇧ Espace`, molette, balayage |
-| Début / fin du chapitre | `Début` / `Fin` |
-| Chapitre suivant / précédent | `N` / `P`, ou appuyer encore une fois en fin / début de chapitre |
-| Une page → double → auto | `D` |
-| Décaler les paires (couverture seule) | `O` |
-| Sens de lecture | `S` |
-| Animation | `A` |
-| Sombre / clair | `M` |
-| Zoom qui suit la souris | `Z` ou double-clic au centre |
-| Plein écran | `F` |
-| Aide | `?` |
-| Fermer | `Échap` |
+| Action                                | Touches                                                                                 |
+| ------------------------------------- | --------------------------------------------------------------------------------------- |
+| Page suivante / précédente            | `←` / `→` en japonais (inversé en occidental), `Espace` / `⇧ Espace`, molette, balayage |
+| Début / fin du chapitre               | `Début` / `Fin`                                                                         |
+| Chapitre suivant / précédent          | `N` / `P`, ou appuyer encore une fois en fin / début de chapitre                        |
+| Une page → double → auto              | `D`                                                                                     |
+| Décaler les paires (couverture seule) | `O`                                                                                     |
+| Sens de lecture                       | `S`                                                                                     |
+| Animation                             | `A`                                                                                     |
+| Sombre / clair                        | `M`                                                                                     |
+| Zoom qui suit la souris               | `Z` ou double-clic au centre                                                            |
+| Plein écran                           | `F`                                                                                     |
+| Aide                                  | `?`                                                                                     |
+| Fermer                                | `Échap`                                                                                 |
 
 Clic sur le tiers gauche ou droit de l'écran : tourner la page. Clic au centre : afficher ou masquer l'interface (elle se cache seule).
 
 ## Structure
 
-```
-manifest.json
-src/core.js      logique pure : extraction, détection générique, appariement des planches, clavier, mise en page
-src/i18n.js      traductions de l'interface (chrome.i18n, dossier _locales/)
-src/styles.js    styles du lecteur (Shadow DOM, isolés du site)
-src/reader.js    lecteur : rendu en livre, tournage 3D, interface, préchargement
-src/content.js   détection du chapitre (3 stratégies), réglages, bouton de lancement
-src/sites.js     sites activés : autorisations, scripts enregistrés dynamiquement
-background.js    service worker : garde sites, autorisations et scripts cohérents
-popup/           réglages + activation du site courant
-icons/
-test/core.test.js
-```
+Code en TypeScript strict, construit avec [WXT](https://wxt.dev). Le détail de chaque dossier est dans le [README anglais](../README.md#under-the-hood).
 
-Pour la détection des pages, voir la section « Autres sites de scans ».
+```
+src/entrypoints/   service worker, script injecté, popup
+src/domain/        logique pure : réglages, planches, mise en page, clavier, chapitres
+src/sites/         un adaptateur par moteur de lecture (interface SiteAdapter)
+src/reader/        le livre : rendu, animations, chargement des pages, interface
+src/content/       session de lecture, bouton de lancement, messages
+src/services/      stockage (avec migration), sites activés
+src/locales/       textes de l'interface en 7 langues
+tests/             tests Vitest
+```
 
 ## Tests
 
 ```bash
-node --test test/
+npm run check   # types, lint, formatage et tests (comme la CI)
 ```

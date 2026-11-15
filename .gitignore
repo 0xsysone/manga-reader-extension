@@ -1,5 +1,9 @@
+.output/
+.wxt/
+node_modules/
+coverage/
 dist/
 *.zip
 .DS_Store
-# Étude de marché privée
+# Private market study
 docs/etude-de-marche.md
